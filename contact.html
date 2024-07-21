@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="main-content">
+    
+    <main>
+        <section class="section sec5 contact active" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2> Contact <span>Me</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-content">
+                        <h4>Contact Me here</h4>
+                        <p> I am a Computer Science graduate and Currently working as a university faculty. I'm actively
+                            searching for Ph.D opportunity in the same discipline. </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-pin"></i>
+                                    Location
+                                </div>
+                                <p>
+                                    Uttara, Dhaka-1230, Bangladesh.
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                    Phone
+                                </div>
+                                <p>
+                                    +8801766722703
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email
+                                </div>
+                                <p>
+                                    zubairhossain773@gmail.com
+                                </p>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Language
+                                </div>
+                                <p>
+                                    Bangla, English.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/zubair063" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/zubair063/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+
+
+                                <a href="https://twitter.com/zubair_hossain1" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-contact">
+                        <form id="myForm" action="https://formsubmit.co/zubairhossain773@gmail.com" method="POST">
+                            <div class="input-control i-c-2">
+                                <input type="text" name="Name" required="" placeholder="Your Name">
+                                <input type="email" name="Email" required="" placeholder="Your Email">
+                            </div>
+
+                            <div class="input-control">
+                                <input type="text" name="Subject" required="" placeholder="Enter Subject">
+                            </div>
+
+                            <div class="input-control">
+                                <textarea name="message" id="" cols="15" rows="8" required=""
+                                    placeholder="Message Here.."></textarea>
+                            </div>
+
+                            <div class="btn-con" style="cursor: pointer;">
+                                <a href="javascript:void()" onclick="document.getElementById('myForm').submit();"
+                                    class="submit_btn" style="cursor: pointer;">
+                                    <span class="btn-text"> Submit Now </span>
+                                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                                </a>
+                            </div>
+
+                    </div>
+
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <footer class="copy_right1">
+                <p class="cp-text1">Developed by Md.Zubair © Copyright 2022. All right reserved.</p>
+            </footer>
+
+        </section>
+
+    </main>
+
+    <div class="controlls">
+
+        <a href="index.html" id="tab1">
+            <div class="control control-1 side-bar-test " data-id="home">
+                <i class="fa-solid fa-house-user"></i>
+                
+            </div>
+        </a>
+
+        <a href="about.html" id="tab1">
+            <div class="control control-2 side-bar-test tooltip" data-id="about">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </a>
+
+        <a href="education.html" id="tab1">
+
+            <div class="control control-3 side-bar-test tooltip" data-id="education">
+                <i class="fa-solid fa-graduation-cap"></i>
+                
+            </div>
+        </a>
+
+        <a href="portfolio.html" id="tab1">
+
+            <div class="control control-5 side-bar-test tooltip" data-id="protfolio">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+        </a>
+
+        <a href="contact.html" id="tab1">
+
+            <div class="control control-7 side-bar-test tooltip active-btn" data-id="contact">
+                <i class="fa-regular fa-address-book"></i>
+            </div>
+        </a>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
