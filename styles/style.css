@@ -1,3 +1,12 @@
+/*
+ * Portfolio Website - Mohammad Rashid Pathan
+ * IIT Gandhinagar | Computer Science and Engineering
+ * 
+ * Professional portfolio showcasing projects, skills, and achievements
+ * © 2024 Mohammad Rashid Pathan. All rights reserved.
+ */
+
+/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +14,7 @@
   list-style: none;
 }
 
+/* CSS Custom Properties (Color Scheme) */
 :root {
   --color-primary: #3366cc;
   --color-secondary: #201e43;
@@ -18,17 +28,14 @@
   --color-grey5: #252724;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
-
-  /* CSS HEX */
   --french-gray: #d0ccd0ff;
   --aquamarine: #80ffe8ff;
   --dark-purple: #210b2cff;
   --cerulean: #1c6e8cff;
   --charcoal: #274156ff;
-
-  
 }
 
+/* Global Styles */
 body {
   background: linear-gradient(90deg, #80ffe8ff, #274156ff) !important;
   font-family: "Poppins", sans-serif;
@@ -59,59 +66,7 @@ section {
   padding: 3rem 18rem;
 }
 
-/* .section {
-  transform: translateY(-100%) scale(0);
-  transition: all 0.4s ease-in-out;
-} */
-
-/* .sec1 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec2 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec3 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec4 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec5 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec6 {
-  display: none;
-  transform: translateY(0) scale(1);
-}
-
-.sec7 {
-  display: none;
-  transform: translateY(0) scale(1);
-} */
-
-/* .active {
-  display: block;
-  animation: scaleAnim 1s ease-in-out;
-} */
-/* @keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scale(0);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-} */
-
+/* Navigation Controls */
 .controlls {
   position: fixed;
   z-index: 10;
@@ -154,7 +109,7 @@ section {
   pointer-events: none;
 }
 
-/*header-content*/
+/* Header Content */
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -246,7 +201,7 @@ section {
   font-size: 1.3rem;
 }
 
-/*Independent components*/
+/* Buttons and Independent Components */
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -381,7 +336,7 @@ section {
   width: 30%;
 }
 
-/*Status title*/
+/* Status Title */
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -400,7 +355,7 @@ section {
   transform: translateX(-50%);
 }
 
-/*timeline*/
+/* Timeline */
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
