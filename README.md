@@ -105,14 +105,8 @@ The website uses a professional color palette defined in CSS variables:
 
 This project is open source and available for personal and educational use.
 
-## 🙏 Acknowledgments
-
-- Font Awesome for the icon library
-- Google Fonts for the Poppins font family
-- IIT Gandhinagar for the educational opportunity
-
 ---
 
 **"My abilities are greater than my disabilities."**
 
-© 2024 Mohammad Rashid Pathan. All rights reserved.
+© 2025 Mohammad Rashid Pathan. All rights reserved.
